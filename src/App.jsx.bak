@@ -1,0 +1,79 @@
+//import React from "react";
+import './styles/App.css';
+import Navbar from "./components/Navbar";
+//import Slider from "./components/Slider";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages';
+import About from './pages/about';
+import Contact from './pages/contact';
+import SignUp from './pages/signup';
+import SignIn from './pages/signin';
+
+const ImageData = [
+  {
+    image:
+      "https://images.unsplash.com/photo-1546190255-451a91afc548?ixlib=rb-1.2.1",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1591348122449-02525d70379b?ixlib=rb-1.2.1",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?ixlib=rb-1.2.1",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1577023311546-cdc07a8454d9?ixlib=rb-1.2.1",
+  },
+];
+
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+          <div>
+            <Navbar/>
+            <Route exact path="/login" component={Home} />
+            <Route exact path="/userpass" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/signup" component={SignUp} />
+            <Route exact path="/" component={SignIn} />
+          </div>
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+/*
+// Default App.js
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+*/

@@ -1,0 +1,54 @@
+import React from 'react';
+import { BsSearch, BsBell } from 'react-icons/bs';
+import * as styled from './NavbarElements';
+//import MyMenu from './Mymenu/MyMenu';
+//import SearchModal from './SearchModal/SearchModal';
+
+const Navbar = () => {
+	
+  return (
+    <styled.NavWrap>
+      <styled.NavInner>
+        <styled.Logo>
+          <a href="/">
+            <img src={'/react-icons/icon-menu.png'} alt="로고이미지" />
+          </a>
+        </styled.Logo>
+        <styled.MainMenu>
+          {MAINMENU.map((element, index) => {
+            return (
+              <styled.MainMenuLink
+                key={index}
+              >
+                {element}
+              </styled.MainMenuLink>
+            );
+          })}
+        </styled.MainMenu>
+        <styled.RightMenu>
+          <styled.SearchBtn>
+            <BsSearch />
+          </styled.SearchBtn>
+          <styled.BellBtn>
+            <BsBell />
+          </styled.BellBtn>
+          <styled.LoginBtn>
+            로그인 / 회원가입
+          </styled.LoginBtn>
+          <styled.ProfileBtn>
+            <styled.Profile src="https://lh5.googleusercontent.com/-f0sfd8ImFIg/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckeMzt3LWccaKNGXrrK9Z__0dBeEQ/s96-c/photo.jpg" />
+            <styled.NewPoint>N</styled.NewPoint>
+          </styled.ProfileBtn>
+          <styled.AdminPage>
+            <styled.EnterPrise>기업 서비스</styled.EnterPrise>
+          </styled.AdminPage>
+        </styled.RightMenu>
+      </styled.NavInner>
+      
+    </styled.NavWrap>
+  );
+};
+
+export default Nav;
+
+const MAINMENU = ['채용공고', '커리어 성장', '직군별 연봉', '이력서', '매치업'];
