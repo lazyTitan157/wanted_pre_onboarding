@@ -12,7 +12,7 @@
     - 슬라이드 구현을 위한 라이브러리는 사용하실 수 없습니다. (라이브러리 사용 시 감점)
 3. **반응형(Responsive Web) 구현** 
     - GNB, 슬라이드 모두 반응형(Responsive Web)을 구현해주세요. (반응형 부족할 경우 감점)
-4. **Github Repository 주소와 배포 링크를 제출해주세요.** (netlify로 배포) (배포가 안 된 경우 감점)
+4. **Github Repository 주소와 배포 링크를 제출해주세요.** (배포가 안 된 경우 감점)
     - https://lucid-clarke-92a0d8.netlify.app/ 
 
 
