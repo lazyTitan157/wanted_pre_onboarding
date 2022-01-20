@@ -1,3 +1,24 @@
+# 과제 내용
+- 상단 캡쳐 영역을 그대로 구현해주세요.
+- 개발자도구를 활용하여 원티드의 리소스(사진 등)를 그대로 사용해주세요.
+
+
+1. **상단 GNB(Global Navigation Bar)**
+    - 마크업 작업(HTML, CSS)만 작업해주세요.
+    - 메뉴클릭, hover 등의 이벤트는 구현하지 않아도 됩니다.
+2. **슬라이드(또는 캐러샐이라고 불림) 영역**
+    - 원티드 사이트와 똑같이 구현해주세요. (기능 구현 부족 시 감점)
+        - 스와이프 이벤트, 왼/오 버튼 클릭 이벤트 → 카드 이동
+    - 슬라이드 구현을 위한 라이브러리는 사용하실 수 없습니다. (라이브러리 사용 시 감점)
+3. **반응형(Responsive Web) 구현** 
+    - GNB, 슬라이드 모두 반응형(Responsive Web)을 구현해주세요. (반응형 부족할 경우 감점)
+4. **Github Repository 주소와 배포 링크를 제출해주세요.** (netlify로 배포) (배포가 안 된 경우 감점)
+    - https://lucid-clarke-92a0d8.netlify.app/ ㅠㅠ?
+    1. 혹시 배포가 어렵다면 구현된 영상 2개를 녹화하여 gif로 변환한 후 리드미에 추가해주세요.
+        1. 슬라이드가 작동하는 영상
+        2. 반응형이 작동하는 영상
+    2. 혹시 구현사항이 많이 부족하여 배포나 녹화하기가 어렵다면 코드만 제출하셔도 됩니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
