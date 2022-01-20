@@ -13,11 +13,8 @@
 3. **반응형(Responsive Web) 구현** 
     - GNB, 슬라이드 모두 반응형(Responsive Web)을 구현해주세요. (반응형 부족할 경우 감점)
 4. **Github Repository 주소와 배포 링크를 제출해주세요.** (netlify로 배포) (배포가 안 된 경우 감점)
-    - https://lucid-clarke-92a0d8.netlify.app/ ㅠㅠ?
-    1. 혹시 배포가 어렵다면 구현된 영상 2개를 녹화하여 gif로 변환한 후 리드미에 추가해주세요.
-        1. 슬라이드가 작동하는 영상
-        2. 반응형이 작동하는 영상
-    2. 혹시 구현사항이 많이 부족하여 배포나 녹화하기가 어렵다면 코드만 제출하셔도 됩니다.
+    - https://lucid-clarke-92a0d8.netlify.app/ 
+
 
 # Getting Started with Create React App
 
